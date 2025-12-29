@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.card img {
+    width: 70%;
+}
+
+.result {
+    border-left: 6px solid green;
+}
+
+/* METRICS TABLE */
+.metrics-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.metrics-table th {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.metrics-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
