@@ -1,0 +1,5 @@
+This project focuses on developing a Network Intrusion Detection System (IDS) using deep learning techniques, specifically a combination of Convolutional Neural Networks (CNN) and Long Short-Term Memory (LSTM) networks. The system is designed to analyze network traffic data and accurately classify it as Benign (normal) or Malicious (attack).
+
+The model is trained using the CICIDS-2017 dataset, which contains real-world network traffic representing both normal activities and various cyberattack scenarios. CNN layers are used to extract important spatial features from network flow data, while LSTM layers capture temporal patterns and dependencies in traffic behavior. This combination improves detection accuracy, especially for complex and evolving attack patterns.
+
+To enhance usability and understanding, the project includes a web-based interface that displays prediction results, training graphs (accuracy and loss), a confusion matrix, and evaluation metrics such as accuracy, precision, recall, and F1-score. This makes the system suitable for academic use, cybersecurity research, and as a foundation for real-world intrusion detection applications.
